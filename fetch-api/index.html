@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca por Capital</title>
+    <style>
+      label { display: block; margin-top: 10px; }
+      input[readonly] { background-color: #f2f2f2; }
+      img { height: 40px; display: none; margin-top: 10px; }
+    </style>
+  </head>
+  <body>
+  
+    <h2>Buscar país pela capital</h2>
+  
+    <form>
+      <label>Capital:
+        <input type="text" id="capital" name="capital" autocomplete="off">
+      </label>
+  
+      <label>País:
+        <input type="text" id="pais" readonly>
+      </label>
+  
+      <label>Região:
+        <input type="text" id="regiao" readonly>
+      </label>
+  
+      <label>População:
+        <input type="text" id="populacao" readonly>
+      </label>
+  
+      <label>Área (km²):
+        <input type="text" id="area" readonly>
+      </label>
+  
+      <label>Moeda:
+        <input type="text" id="moeda" readonly>
+      </label>
+  
+      <label>Bandeira:
+        <img id="bandeira" src="" alt="Bandeira">
+      </label>
+    </form>
+  
+    <script src="script.js"></script>
+</body>
+</html>
